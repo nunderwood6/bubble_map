@@ -1,0 +1,66 @@
+html,body {
+font-family: proxima-nova, sans-serif;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+}
+
+div{
+	margin: 0 auto;
+}
+
+div.opener {
+	width: 100%;
+}
+
+div.opener h1 {
+	text-align: center;
+}
+
+div.map{
+	width: 100%;
+	height: 200%;
+}
+
+.municipio {
+	stroke: #fff;
+	fill: #bbb;
+	stroke-width: 0.2px;
+}
+
+.country {
+	stroke: #fff;
+	fill: #eee;
+	stroke-width: 0.2px;
+}
+
+.centroids {
+	fill: none;
+	opacity: 100%;
+	fill-opacity: 50%;
+	stroke:#333;
+	stroke-width: 0.5;
+}
+
+/*.spread {
+	fill: #75313d;
+	opacity: 100%;
+	fill-opacity: 50%;
+	stroke:#fff;
+	stroke-width: 0.5;
+}*/
+
+.outerCircle {
+	stroke: #fff;
+	stroke-width: 0.5;
+	fill: none;
+}
+
+.innerCircle {
+	fill: #75313d;
+	stroke:#fff;
+	stroke-width:0.1;
+}
+
+
+
